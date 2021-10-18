@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="15ee8a3c6d26939c31393e67ec6803d0734b50b1f905307466cd6b1a2aa01a16.html">Automatizacion Farmatodo</a></span>
+                > <span class="truncate-60"><a
+                    href="908558a878bc476a22ae630c731d4bb7951cfb8c89f8e31dd78b3e11ca494516.html">Registro incorrecto numero de telefono </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-10-2021 16:11</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Automatizacion Farmatodo</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to use this template for my feature file
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4e9343d20c172a4f0517b74412de045d42d0e6124672772f601b44619d0d2e2f.html">Tag3
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro incorrecto numero de telefono
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="469ef53eb36a389408af576013dbe3ad36b782de83ad9ed366f49bc11dc8dc60.png" title=" Example: null" width="1920"/>
+                <img src="469ef53eb36a389408af576013dbe3ad36b782de83ad9ed366f49bc11dc8dc60.png" title=" When Dar click en inicia sesion" width="1920"/>
+                <img src="469ef53eb36a389408af576013dbe3ad36b782de83ad9ed366f49bc11dc8dc60.png" title=" Click iniciar sesion" width="1920"/>
+                <img src="469ef53eb36a389408af576013dbe3ad36b782de83ad9ed366f49bc11dc8dc60.png" title=" When Dar click en inicia sesion (completed)" width="1920"/>
+                <img src="469ef53eb36a389408af576013dbe3ad36b782de83ad9ed366f49bc11dc8dc60.png" title=" And Dar click en registrate aqui" width="1920"/>
+                <img src="469ef53eb36a389408af576013dbe3ad36b782de83ad9ed366f49bc11dc8dc60.png" title=" Click en registrate aqui" width="1920"/>
+                <img src="587f2de0e9bdf772864b117e41db3aef75a9ebc146fb94840ec65de3a4dfbe4e.png" title=" Click en registrate aqui (completed)" width="1920"/>
+                <img src="587f2de0e9bdf772864b117e41db3aef75a9ebc146fb94840ec65de3a4dfbe4e.png" title=" And Dar click en registrate aqui (completed)" width="1920"/>
+                <img src="587f2de0e9bdf772864b117e41db3aef75a9ebc146fb94840ec65de3a4dfbe4e.png" title=" And Diligenciar campo Nombre &quot;Andres&quot;" width="1920"/>
+                <img src="e0b23b9b63c5b409aefd5e40baddd0cee95adb15590cb605bf317db4a9c23bf2.png" title=" And Diligenciar campo Nombre &quot;Andres&quot; (completed)" width="1920"/>
+                <img src="e0b23b9b63c5b409aefd5e40baddd0cee95adb15590cb605bf317db4a9c23bf2.png" title=" And Diligenciar campo Apellido &quot;Laiton&quot;" width="1920"/>
+                <img src="e8146889a2b31805f9ef09b5bcac99ae6b80dd640306664aa5b9fe92e08fc8c1.png" title=" And Diligenciar campo Apellido &quot;Laiton&quot; (completed)" width="1920"/>
+                <img src="e8146889a2b31805f9ef09b5bcac99ae6b80dd640306664aa5b9fe92e08fc8c1.png" title=" And Diligenciar campo Correo Electronico &quot;dsgutierreza@correo.udistrital.edu.co&quot;" width="1920"/>
+                <img src="e7ed98c79ab27065ee74376fe5f4f003793248f45526ffefb738fbce9faf66ba.png" title=" And Diligenciar campo Correo Electronico &quot;dsgutierreza@correo.udistrital.edu.co&quot; (completed)" width="1920"/>
+                <img src="e7ed98c79ab27065ee74376fe5f4f003793248f45526ffefb738fbce9faf66ba.png" title=" And Diligenciar campo Contrase&ntilde;a &quot;Bogota2021*&quot;" width="1920"/>
+                <img src="06b362d1c6beea9005f6d69f6479d5801858eb2edcadb978a6d43100f6241b24.png" title=" And Diligenciar campo Contrase&ntilde;a &quot;Bogota2021*&quot; (completed)" width="1920"/>
+                <img src="06b362d1c6beea9005f6d69f6479d5801858eb2edcadb978a6d43100f6241b24.png" title=" And Diligenciar campo Confirmar contrase&ntilde;a &quot;Bogota2021*&quot;" width="1920"/>
+                <img src="32d5f1c3f0d61faa45ff13e9f902965ca0df0d4ed7cb06a09adf4190438ffb28.png" title=" And Diligenciar campo Confirmar contrase&ntilde;a &quot;Bogota2021*&quot; (completed)" width="1920"/>
+                <img src="32d5f1c3f0d61faa45ff13e9f902965ca0df0d4ed7cb06a09adf4190438ffb28.png" title=" And Diligenciar campo Numero de documento &quot;26006906&quot;" width="1920"/>
+                <img src="0eb2ba7bf7ef188fba17a1da7447db5b732b753cf96a083d1fc04fd8adee1d4a.png" title=" And Diligenciar campo Numero de documento &quot;26006906&quot; (completed)" width="1920"/>
+                <img src="0eb2ba7bf7ef188fba17a1da7447db5b732b753cf96a083d1fc04fd8adee1d4a.png" title=" And Diligenciar campo Numero de telefono &quot;3057798223&quot;" width="1920"/>
+                <img src="3cadccf34008d5918184cf374bf2b6c3193bc21f2152bcc24bd8639bc2d8996f.png" title=" And Diligenciar campo Numero de telefono &quot;3057798223&quot; (completed)" width="1920"/>
+                <img src="3cadccf34008d5918184cf374bf2b6c3193bc21f2152bcc24bd8639bc2d8996f.png" title=" And Seleccionar sexo" width="1920"/>
+                <img src="dab0d6dfaf675b4b6a7da90817cf4cace0b3a4d8a41b350b51314998f0028d7f.png" title=" And Seleccionar sexo (completed)" width="1920"/>
+                <img src="dab0d6dfaf675b4b6a7da90817cf4cace0b3a4d8a41b350b51314998f0028d7f.png" title=" Then Validar el mensaje de numero de telefono" width="1920"/>
+                <img src="90786f6d8f9caa8e4260470e627218448f38619ac21147f0d675950fe6532601.png" title=" Then Validar el mensaje de numero de telefono (completed)" width="1920"/>
+                <img src="90786f6d8f9caa8e4260470e627218448f38619ac21147f0d675950fe6532601.png" title=" Example: null (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.70</span>
+</div>
+</body>
+</html>
